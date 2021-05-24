@@ -1,0 +1,117 @@
+<!--
+	________________________________________
+
+	SUGGESTION POUR LE PROCHAIN DESIGN
+	________________________________________
+
+	1) Un meilleur choix de couleur. Possiblement utiliser des gradient de couleur?
+
+	2) Un look moins geometrique; plus de "rondeur".
+
+	3) Des meilleurs choix de police et d'alignement.
+
+	________________________________________
+
+-->
+
+<html>
+
+	<head>
+		<link rel="stylesheet" href="StyleSheet.css">
+		<title>Survey</title>
+		<h1>Survey</h1>
+	</head>
+
+	<body>
+		<div class="box">
+			<p>What do you think of the UI of this
+			<a href="http://web.archive.org/web/20090207050945/http://blog.nbc.com/CreedThoughts">site</a>
+			?
+			</p>
+			<a href="http://web.archive.org/web/20090207050945/http://blog.nbc.com/CreedThoughts">
+				<img src="https://creedsthoughtsdotgov.files.wordpress.com/2014/10/cropped-creed-thoughts.jpg" alt="Creed Bratton" width="315" height="60">
+			</a>
+			<br>
+			<br>
+		</div>
+
+		<form action="" name="Sondage" method="POST">
+
+			<div class="box">
+
+				<h3>Personal Information</h3>
+				First name: <input type="text" name="firstname"><br>
+				Last name: <input type="test" name="lastname">
+				<br>
+				<br>
+
+			</div>
+			
+
+			<div class="box">
+
+				<h3>Questionnaire</h3>
+				Are you a fan of "The Office" :<br>
+				<input type="radio" name="fan" value="Yes">Yes<br>
+				<input type="radio" name="not fan" value="No">No<br>
+				<br>
+
+				What blog(s) is your favorite(s) :<br>
+				<input type="checkbox" name="June 03, 2007" value="June 03, 2007">June 03, 2007<br>
+				<input type="checkbox" name="July 01, 2007" value="July 01, 2007">July 01, 2007<br>
+				<input type="checkbox" name="February 10, 2008" value="February 10, 2008">February 10, 2008<br>
+				<br>
+
+				What do you like the least about our website?<br>
+				<select name= "favorite">
+					<option value="Colours" selected="selected">The colours</option>
+					<option value="Navigation">The navigation tab to access the different thoughts </option>
+					<option value="Content">The disturbing content </option>
+				</select>
+				<br>
+				<br>
+
+				What do you like the most about our website?<br>
+				<select name= "favorite">
+					<option value="Colours" selected="selected">The colours</option>
+					<option value="Navigation">The navigation tab to access the different thoughts </option>
+					<option value="Content">The disturbing content </option>
+				</select>
+				<br>
+				<br>
+
+				Would you recommend this website to a friend or a colleague?" :<br>
+				<input type="radio" name="Yes" value="Yes">Of course!<br>
+				<input type="radio" name="Maybe" value="Maybe">Maybe<br>
+				<input type="radio" name="No" value="No">No<br>
+				<input type="radio" name="Topic" value="Topic">I need you to understand that people don't have conversations where they randomly recommend a website to one another.<br>
+				<br>
+
+				What is the most important feature(s) you think we should add?
+				<br>
+					<textarea rows="5" cols="30"/>
+					</textarea>
+				<br>
+				<br>
+			</div>
+			<br>
+
+			<div class="box">
+				Comments:<br>
+					<textarea rows="5" cols="30"/>
+					</textarea>
+				<br>
+				<br>
+			</div>
+			<br>
+
+			<input type="submit" value="submit the questionnaire"/>
+
+		</form>
+	</body>
+
+	<footer>
+ 		<h6>Site created by Marc Tremblay</h6>
+	</footer>
+
+</html>
